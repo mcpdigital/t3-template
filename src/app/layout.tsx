@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 //import "@/styles/globals.css";
 
 import { GeistSans } from "geist/font/sans";
@@ -8,6 +10,7 @@ import { TRPCReactProvider } from "@/trpc/react";
 import ThemeProvider from "@/components/providers/theme-provider";
 import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+// const geistsans = GeistSans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "T3 App with themes",
