@@ -1,3 +1,18 @@
+# t3-stack-template
+
+Just a modded template for [T3 Stack](https://create.t3.gg/) that add some front-end:
+
+- `next-themes` for theme switching
+- `Login Modal` component
+- `Navbar` component
+- `Dark Mode` toggle button in the Navbar
+- `Violet Theme`
+
+Avoid using this template if you don't need these features. It is preferable to use [T3 Stack](https://create.t3.gg/) directly.
+
+The correct way to use this code is to run the `t3-create-app` command with all the default options except @/ then copy all the files from src to your src replacing the layout.tsx file with the one in this repo.
+It can help beginners with the front end.
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
