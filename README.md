@@ -3,10 +3,13 @@
 Just a modded template for [T3 Stack](https://create.t3.gg/) that add some front-end:
 
 - `next-themes` for theme switching
-- `Login Modal` component
-- `Navbar` component
 - `Dark Mode` toggle button in the Navbar
-- `Violet Theme`
+- `Violet Mode` toggle button in the Navbar (need to mod from "light" to "violet")
+- `global.css` added some new global styles so the default colors are correct by default
+- `tailwind.config.js` added some tailwindcss colors and themes
+- `integration with tailwindcss` for dark and violet mode support
+- `Navbar` component
+- `Basic Login Modal` component
 
 Avoid using this template if you don't need these features. It is preferable to use [T3 Stack](https://create.t3.gg/) directly.
 
