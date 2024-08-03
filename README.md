@@ -11,6 +11,7 @@ Just a modded template for [T3 Stack](https://create.t3.gg/) that add some front
 Avoid using this template if you don't need these features. It is preferable to use [T3 Stack](https://create.t3.gg/) directly.
 
 The correct way to use this code is to run the `t3-create-app` command with all the default options except @/ then copy all the files from src to your src replacing the layout.tsx file with the one in this repo.
+Rename the src/app/page.tsx file to something like t3page.tsx then when you open the app it will point to the page inside (home) folder. To go back just rename the page back.
 It can help beginners with the front end.
 
 # Create T3 App
